@@ -1,0 +1,33 @@
+*{background-color: gold;}
+
+#maincontainer{
+    background-color: red;
+    height: 95vh;
+    padding:1rem ;
+    display: grid;
+    /* grid-template-columns:25% 25% 25% 25%; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.box{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+}
+
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#box8{
+    grid-column-start: 4;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+}

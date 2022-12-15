@@ -1,0 +1,46 @@
+ #ONE{
+            background-color: rgb(209, 97, 97);
+        }
+
+ #TWO{
+            background-color: rgb(115, 211, 235);
+        }
+
+#FIRST{background-color: rgb(139, 235, 95);
+            padding: 10px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+#input {
+            padding: 10px;
+            width: 30%;
+            outline: none}
+
+#inside{display: flex; flex-direction: row; justify-content: space-evenly;
+}
+
+#googlelink:hover{ background-color: black;
+    text-decoration: wavy;}
+
+#twitterlink:hover{ background-color: black;
+        text-decoration: wavy;}
+
+#gmaillink:hover{ background-color: black;
+            text-decoration: wavy;}
+
+li:first-child{
+                background-color:red ;
+            }
+li:nth-child(2){
+                background-color:orange ;
+            }
+    
+li:nth-child(4){
+                background-color:green ;
+            }
+
+#facebooklink:hover{ background-color: black;
+                text-decoration: wavy;}

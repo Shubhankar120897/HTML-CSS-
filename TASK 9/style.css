@@ -1,0 +1,36 @@
+*{background-color:aquamarine;
+font-size: 25px;}
+
+#one{color: black;
+background-color: gold;}
+
+#px {
+    background-color:red;
+    width: 100px;
+    height: 100px;
+}
+#em1 {
+    background-color:red;
+    width: 10em;
+    height: 10em;
+}
+
+.parent {
+    font-size: 20px;
+} 
+
+.child-rem{
+    font-size: 2rem;
+    
+}
+.style1{background-color: red;}
+
+#style2 {background-color:chartreuse;width: 50%;}
+
+#style3{width:30%; margin-left:60%; background-color:pink;}
+
+#width{background-color: red;
+    width: 50vw;
+    height: 50vh;}
+#height{background-color:chartreuse; width: 70vw;
+    height: 70vh;}

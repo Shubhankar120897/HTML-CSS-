@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    background-color: yellowgreen;
+}
+#parent1 {
+    position: static;
+    border: 1px solid blue;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+  }
+  
+  #child1 {
+    position: absolute;
+    border: 1px solid red;
+    background-color: red;
+    top: 370px;
+    right: 200px;
+  }
+
+  #parent2 {
+    position: relative;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+  }
+  
+  #child2 {
+    position: absolute;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    top: 70px;
+    right: 15px;
+  }
+  #parent3 {
+    position: absolute;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    top: 750px;
+    right: 15px;
+  }
+  
+  #child3 {
+    position: absolute;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+    top: 70px;
+    right: 15px;
+  }
+  #parent4{
+    background-color: rgb(242, 14, 52);
+    width: 10rem;
+    height: 5rem;
+    border-radius: 25%;
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid black;
+}
+
+
+#box1{
+    position: relative;
+    background-color:yellow ;
+    z-index:1 ;
+}
+
+#box2{
+    background-color: black;
+    margin-top: -5rem;
+    margin-left: 5rem;
+    z-index: 1;
+}
